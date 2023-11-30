@@ -54,9 +54,9 @@ public class Llave extends EtapaMundial  {
 
     public void mostrarPartidosGenerados() {
         if (partidosGenerados != null) {
-            System.out.println("Partidos Generados:");
+            System.out.println("Partido Generado:");
             for (Partido partido : partidosGenerados) {
-                System.out.println(partido.getLocal().getName() + " vs " + partido.getVisitante().getName());
+                System.out.println(partido.getLocal().getName() + " vs " + partido.getVisitante().getName() + "\n");
             }
         } else {
             System.out.println("No se han generado partidos.");
