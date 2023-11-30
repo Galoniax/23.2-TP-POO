@@ -156,5 +156,11 @@ public class Main {
         Semi2P.getResultado().setGolesLocal(3);
         Semi2P.getResultado().setGolesVisitante(2);
 
+
+        //Llaves (Final)
+        Llave Final1 = new Llave("Llave 1 (Final)");
+        Final1.addEquipo(Brasil);
+        Final1.addEquipo(Argentina);
+
     }
 }
