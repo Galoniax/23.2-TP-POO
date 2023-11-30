@@ -131,5 +131,24 @@ public class Main {
 
         Cuarto4P.getResultado().setGolesVisitante(3);
 
+        //Llaves (Semifinal)
+        Llave Semi1 = new Llave("Llave 1 (Semifinal)");
+        Semi1.addEquipo(Brasil);
+        Semi1.addEquipo(Peru);
+
+        Llave Semi2 = new Llave("Llave 2 (Semifinal)");
+        Semi2.addEquipo(Argentina);
+        Semi2.addEquipo(Colombia);
+
+        Semi1.generateMatches();
+        Semi2.generateMatches();
+
+        // Mostrar los partidos generados
+        Semi1.mostrarPartidosGenerados();
+        Semi2.mostrarPartidosGenerados();
+
+        Partido Semi1P = Semi1.getPartidosGenerados().get(0);
+        Partido Semi2P = Semi2.getPartidosGenerados().get(0);
+
     }
 }
