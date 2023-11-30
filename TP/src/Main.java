@@ -162,5 +162,15 @@ public class Main {
         Final1.addEquipo(Brasil);
         Final1.addEquipo(Argentina);
 
+        Final1.generateMatches();
+
+        // Mostrar los partidos generados
+        Final1.mostrarPartidosGenerados();
+
+        Partido Final1P = Final1.getPartidosGenerados().get(0);
+
+        //Goles de Equipo (Final)
+        Final1P.getResultado().setGolesVisitante(1);
+
     }
 }
