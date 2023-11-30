@@ -8,7 +8,7 @@ public class Equipo {
 
     //Constructor
     public Equipo(String Name) {
-        this.Jugadores = new ArrayList<Jugador>();
+        this.Jugadores = new ArrayList<>();
         this.PartidosJugados = new ArrayList<Partido>();
         this.setName(Name);
 
@@ -58,13 +58,13 @@ public class Equipo {
     //Functions
     public void showListPlayer() {
         int lenght = this.getJugadores().size();
-        String message = "En %s hay %d jugadores\n";
+        String message = "En %s hay %d jugadores";
         System.out.println(
                 String.format(message,getName(),lenght)
         );
         getJugadores().forEach(Jugador -> {
-            String playerText = Jugador.getNombre() + " " + Jugador.getContadorGoles();
-            System.out.println(playerText);
+            String playerText = Jugador.getNombre();
+            System.out.println(playerText + "\n");
         });
     }
 
