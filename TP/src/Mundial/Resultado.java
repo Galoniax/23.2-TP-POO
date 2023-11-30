@@ -39,8 +39,6 @@ public class Resultado {
     }
 
 
-
-
     //public void incrementVisitantGoals() {setGolesVisitante(getGolesVisitante() + 1);}
 
     // public void incrementLocalGoals() {setGolesLocal(getGolesLocal() + 1);}
