@@ -44,4 +44,28 @@ public class Equipo {
         Jugadores = jugadores;
     }
 
+    //Addons
+    public void addJugador (Jugador Jugador){
+        getJugadores().add(Jugador);
+    }
+
+    public void removeJugador (Jugador Jugador){
+        getJugadores().remove(Jugador);
+    }
+
+
+
+    //Functions
+    public void showListPlayer() {
+        int lenght = this.getJugadores().size();
+        String message = "En %s hay %d jugadores\n";
+        System.out.println(
+                String.format(message,getName(),lenght)
+        );
+        getJugadores().forEach(Jugador -> {
+            String playerText = Jugador.getNombre() + " " + Jugador.getContadorGoles();
+            System.out.println(playerText);
+        });
+    }
+
 }
