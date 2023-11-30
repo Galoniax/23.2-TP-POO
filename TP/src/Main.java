@@ -47,5 +47,25 @@ public class Main {
         Ecuador.addJugador(new Jugador("Leonardo Campana", 9, "Delantero"));
         Venezuela.addJugador(new Jugador("Yeferson Soteldo", 10, "Centrocampista"));
 
+
+        // Crear grupos y asignar equipos
+
+        //Grupo A
+        Grupo grupoA = new Grupo("Grupo A");
+        grupoA.addEquipos(Argentina);
+        grupoA.addEquipos(Uruguay);
+        grupoA.addEquipos(Paraguay);
+        grupoA.addEquipos(Chile);
+        grupoA.addEquipos(Bolivia);
+
+        //Grupo B
+        Grupo grupoB = new Grupo("Grupo B");
+        grupoB.addEquipos(Brasil);
+        grupoB.addEquipos(Peru);
+        grupoB.addEquipos(Colombia);
+        grupoB.addEquipos(Ecuador);
+        grupoB.addEquipos(Venezuela);
+
+
     }
 }
