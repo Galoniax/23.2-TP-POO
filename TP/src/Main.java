@@ -66,6 +66,26 @@ public class Main {
         grupoB.addEquipos(Ecuador);
         grupoB.addEquipos(Venezuela);
 
+        // Agregar equipos a los octavos de final
+        FaseCuartos.addEquipo(Peru);
+        FaseCuartos.addEquipo(Paraguay);
+        FaseCuartos.addEquipo(Brasil);
+        FaseCuartos.addEquipo(Chile);
+        FaseCuartos.addEquipo(Uruguay);
+        FaseCuartos.addEquipo(Colombia);
+        FaseCuartos.addEquipo(Argentina);
+        FaseCuartos.addEquipo(Ecuador);
+
+        // Agregar equipos a la Semifinal
+        FaseSemifinal.addEquipo(Brasil);
+        FaseSemifinal.addEquipo(Peru);
+        FaseSemifinal.addEquipo(Argentina);
+        FaseSemifinal.addEquipo(Colombia);
+
+        // Agregar equipos a la Final
+        FaseFinal.addEquipo(Argentina);
+        FaseFinal.addEquipo(Brasil);
+
 
     }
 }
