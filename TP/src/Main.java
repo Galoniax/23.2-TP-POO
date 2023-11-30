@@ -172,5 +172,28 @@ public class Main {
         //Goles de Equipo (Final)
         Final1P.getResultado().setGolesVisitante(1);
 
+        //Resultados
+        mostrarResultadoPartido(Cuarto1P);
+        mostrarResultadoPartido(Cuarto2P);
+        mostrarResultadoPartido(Cuarto3P);
+        mostrarResultadoPartido(Cuarto4P);
+
+        mostrarResultadoPartido(Semi1P);
+        mostrarResultadoPartido(Semi2P);
+
+        mostrarResultadoPartido(Final1P);
+
+        int GolesLocalFinal = Final1P.getResultado().getGolesLocal();
+        int GolesVisitantesFinal = Final1P.getResultado().getGolesVisitante();
+
+        if (GolesLocalFinal > GolesVisitantesFinal) {
+            System.out.println(Final1P.getLocal().getName() + " ganó la Copa América 2018");
+        } else if (GolesLocalFinal < GolesVisitantesFinal) {
+            System.out.println(Final1P.getVisitante().getName() + " ganó la Copa América 2018");
+        }
+        else {
+            System.out.println("El partido terminó en empate");
+        }
+
     }
 }
