@@ -37,15 +37,34 @@ public class Main {
 
         // Agregar jugadores a los equipos
         Argentina.addJugador(new Jugador("Lionel Messi", 10, "Delantero"));
+        Argentina.addJugador(new Jugador("Damián Emiliano Martínez", 23, "Arquero"));
+
         Uruguay.addJugador(new Jugador("Federico Valverde", 15, "Centrocampista"));
+        Uruguay.addJugador(new Jugador("Luis Suárez", 9, "Delantero"));
+
         Paraguay.addJugador(new Jugador("Matías Espinoza", 4, "Defensa"));
+        Paraguay.addJugador(new Jugador("Matías Nicolás Rojas", 18, "Centrocampista"));
+
         Chile.addJugador(new Jugador("Ben Brereton", 22, "Delantero"));
+        Chile.addJugador(new Jugador("Claudio Bravo", 1, "Arquero"));
+
         Bolivia.addJugador(new Jugador("Ramiro Vaca", 20, "Centrocampista"));
+        Bolivia.addJugador(new Jugador("Henry Vaca", 10, "Delantero"));
+
         Brasil.addJugador(new Jugador("Lucas Perri", 12, "Portero"));
+        Brasil.addJugador(new Jugador("Neymar", 10, "Delantero"));
+
         Peru.addJugador(new Jugador("Oliver Sonne", 13, "Defensa"));
+        Peru.addJugador(new Jugador("Paolo Guerrero", 9, "Delantero"));
+
         Colombia.addJugador(new Jugador("Luis Fernando Díaz", 14, "Delantero"));
+        Colombia.addJugador(new Jugador("Radamel Falcao García", 9, "Delantero"));
+
         Ecuador.addJugador(new Jugador("Leonardo Campana", 9, "Delantero"));
+        Ecuador.addJugador(new Jugador("Kendry Páez", 16, "Centrocampista"));
+
         Venezuela.addJugador(new Jugador("Yeferson Soteldo", 10, "Centrocampista"));
+        Venezuela.addJugador(new Jugador("Josef Martínez", 17, "Delantero"));
 
 
         // Crear grupos y asignar equipos
@@ -187,9 +206,9 @@ public class Main {
         int GolesVisitantesFinal = Final1P.getResultado().getGolesVisitante();
 
         if (GolesLocalFinal > GolesVisitantesFinal) {
-            System.out.println(Final1P.getLocal().getName() + " ganó la Copa América 2018");
+            System.out.println(Final1P.getLocal().getName() + " ganó la Copa América 2021");
         } else if (GolesLocalFinal < GolesVisitantesFinal) {
-            System.out.println(Final1P.getVisitante().getName() + " ganó la Copa América 2018");
+            System.out.println(Final1P.getVisitante().getName() + " ganó la Copa América 2021");
         }
         else {
             System.out.println("El partido terminó en empate");
