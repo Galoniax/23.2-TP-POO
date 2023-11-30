@@ -150,5 +150,11 @@ public class Main {
         Partido Semi1P = Semi1.getPartidosGenerados().get(0);
         Partido Semi2P = Semi2.getPartidosGenerados().get(0);
 
+        //Goles de Equipo (Semifinal)
+        Semi1P.getResultado().setGolesVisitante(1);
+
+        Semi2P.getResultado().setGolesLocal(3);
+        Semi2P.getResultado().setGolesVisitante(2);
+
     }
 }
