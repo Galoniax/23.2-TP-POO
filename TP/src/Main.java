@@ -87,5 +87,32 @@ public class Main {
         FaseFinal.addEquipo(Brasil);
 
 
+        //Llaves
+        Llave Cuartos1 = new Llave("Llave 1 (Cuartos)");
+        Cuartos1.addEquipo(Peru);
+        Cuartos1.addEquipo(Paraguay);
+
+        Llave Cuartos2 = new Llave("Llave 2 (Cuartos)");
+        Cuartos2.addEquipo(Brasil); // Aquí debes usar Cuartos2
+        Cuartos2.addEquipo(Chile); // Aquí debes usar Cuartos2
+
+        Llave Cuartos3 = new Llave("Llave 3 (Cuartos)");
+        Cuartos3.addEquipo(Uruguay); // Aquí debes usar Cuartos2
+        Cuartos3.addEquipo(Colombia); // Aquí debes usar Cuartos2
+
+        Llave Cuartos4 = new Llave("Llave 4 (Cuartos)");
+        Cuartos4.addEquipo(Argentina); // Aquí debes usar Cuartos2
+        Cuartos4.addEquipo(Ecuador); // Aquí debes usar Cuartos2
+
+        Cuartos1.generateMatches();
+        Cuartos2.generateMatches();
+        Cuartos3.generateMatches();
+        Cuartos4.generateMatches();
+
+        // Mostrar los partidos generados
+        Cuartos1.mostrarPartidosGenerados();
+        Cuartos2.mostrarPartidosGenerados();
+        Cuartos3.mostrarPartidosGenerados();
+        Cuartos4.mostrarPartidosGenerados();
     }
 }
