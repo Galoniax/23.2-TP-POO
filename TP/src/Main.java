@@ -14,5 +14,12 @@ public class Main {
 
     public static void main(String[] args) {
 
+        //Mundial
+        EtapaMundial FaseCuartos = new EtapaMundial("Cuartos de Final");
+
+        EtapaMundial FaseSemifinal = new EtapaMundial("Semifinal");
+
+        EtapaMundial FaseFinal = new EtapaMundial("Final");
+
     }
 }
