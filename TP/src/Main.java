@@ -35,5 +35,17 @@ public class Main {
         Equipo Venezuela = new Equipo("Venezuela");
 
 
+        // Agregar jugadores a los equipos
+        Argentina.addJugador(new Jugador("Lionel Messi", 10, "Delantero"));
+        Uruguay.addJugador(new Jugador("Federico Valverde", 15, "Centrocampista"));
+        Paraguay.addJugador(new Jugador("Matías Espinoza", 4, "Defensa"));
+        Chile.addJugador(new Jugador("Ben Brereton", 22, "Delantero"));
+        Bolivia.addJugador(new Jugador("Ramiro Vaca", 20, "Centrocampista"));
+        Brasil.addJugador(new Jugador("Lucas Perri", 12, "Portero"));
+        Peru.addJugador(new Jugador("Oliver Sonne", 13, "Defensa"));
+        Colombia.addJugador(new Jugador("Luis Fernando Díaz", 14, "Delantero"));
+        Ecuador.addJugador(new Jugador("Leonardo Campana", 9, "Delantero"));
+        Venezuela.addJugador(new Jugador("Yeferson Soteldo", 10, "Centrocampista"));
+
     }
 }
