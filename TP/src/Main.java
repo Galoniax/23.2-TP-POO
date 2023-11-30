@@ -114,5 +114,22 @@ public class Main {
         Cuartos2.mostrarPartidosGenerados();
         Cuartos3.mostrarPartidosGenerados();
         Cuartos4.mostrarPartidosGenerados();
+
+        //Crear Partidos de las Clases Cuartos
+        Partido Cuarto1P = Cuartos1.getPartidosGenerados().get(0);
+        Partido Cuarto2P = Cuartos2.getPartidosGenerados().get(0);
+        Partido Cuarto3P = Cuartos3.getPartidosGenerados().get(0);
+        Partido Cuarto4P = Cuartos4.getPartidosGenerados().get(0);
+
+        //Goles de Equipo (Cuartos)
+        Cuarto1P.getResultado().setGolesVisitante(3);
+        Cuarto1P.getResultado().setGolesLocal(3);
+
+        Cuarto2P.getResultado().setGolesVisitante(1);
+
+        Cuarto3P.getResultado().setGolesVisitante(4);
+
+        Cuarto4P.getResultado().setGolesVisitante(3);
+
     }
 }
