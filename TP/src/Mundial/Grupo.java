@@ -5,12 +5,13 @@ import java.util.ArrayList;
 public class Grupo extends EtapaMundial {
     private ArrayList<Equipo> equipos;
     private String nombreGrupo;
+    private ArrayList<Partido> partidos;
 
     public Grupo(String nombreGrupo) {
         super();
         this.nombreGrupo = nombreGrupo;
         this.equipos = new ArrayList<>();
-
+        this.partidos = new ArrayList<>();
     }
 
 

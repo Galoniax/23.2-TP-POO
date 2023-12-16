@@ -4,6 +4,8 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/23.2-TP-POO.iml" filepath="$PROJECT_DIR$/.idea/23.2-TP-POO.iml" />
       <module fileurl="file://$PROJECT_DIR$/TP/TP.iml" filepath="$PROJECT_DIR$/TP/TP.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TP 2.0/TP 2.0.iml" filepath="$PROJECT_DIR$/TP 2.0/TP 2.0.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TP2-BORRAR/TP2-BORRAR.iml" filepath="$PROJECT_DIR$/TP2-BORRAR/TP2-BORRAR.iml" />
     </modules>
   </component>
 </project>
